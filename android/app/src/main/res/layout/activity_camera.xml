@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aiseminar.platerecognizer.ui.CameraActivity2">
+
+    <ImageView
+        android:id="@+id/ivTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:onClick="btnOnclick"
+        android:src="@drawable/capture_photo" />
+
+    <SurfaceView
+        android:id="@+id/svCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/ivCapturePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:onClick="btnOnclick"
+        android:src="@drawable/capture_photo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivPlateRect"
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/plate_rect"
+            android:src="@drawable/plate_rect" />
+
+        <TextView
+            android:id="@+id/tvPlateResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="拍照识别车牌"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</FrameLayout>
