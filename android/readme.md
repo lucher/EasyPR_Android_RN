@@ -4,8 +4,6 @@ http://reactnative.cn/
 How to understand the “ReactContext” in “Sending events to Javascript” in React Native
 http://stackoverflow.com/questions/34348519/how-to-understand-the-reactcontext-in-sending-events-to-javascript-in-react
 
-http://stackoverflow.com/questions/34348519/how-to-understand-the-reactcontext-in-sending-events-to-javascript-in-react
-
 ============
 npm start
 

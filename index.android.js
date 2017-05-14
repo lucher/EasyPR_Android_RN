@@ -51,7 +51,7 @@ componentDidMount(){
    * ControlPCActivity是你想跳转到的页面
    */
   onClick() {
-    NativeModules.MyMapIntentModule.startActivityByClassname('com.aiseminar.platerecognizer.ui.CameraActivity')  
+    NativeModules.MyMapIntentModule.startActivityByClassname('com.easypr.rn.CameraActivity')  
   }
 }
 const styles = StyleSheet.create({
